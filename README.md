@@ -26,7 +26,11 @@ What I did:
 http://raspberrypi.stackexchange.com/questions/37920/how-do-i-set-up-networking-wifi-static-ip-address/37921#37921
 
 # Arduino from command line: official software
-https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc
+Man: https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc
+Download:
+Add to PATH: http://osxdaily.com/2014/08/14/add-new-path-to-path-command-line/
+Verify and upload:
 $ /Applications/Arduino.app/Contents/MacOS/Arduino --upload sketch.ino --port /dev/tty.usbmodemXXXXX)
-https://www.baldengineer.com/alternatives-to-arduinos-serial-monitor.html
+View serial port: https://www.baldengineer.com/alternatives-to-arduinos-serial-monitor.html
 $ screen /dev/tty.usb.modemXXXXX 9600
+
