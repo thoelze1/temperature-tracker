@@ -13,12 +13,15 @@ void loop() {
   //Serial.print(", Volts: ");
   //Serial.print(voltage);
 
-  float temperature = (voltage - 0.5) * 100.0;
+  float celsius = (voltage - 0.5) * 100.0;
   //Serial.print(", Celsius: ");
-  //Serial.println(temperature);
+  //Serial.print(celsius);
 
-  Serial.print("T: ");
-  Serial.println(temperature);
+  float farenheit = (celsius * 9.0/5.0) + 32.0;
+  //Serial.print(", Farenheit: ");
+  //Serial.println(farenheit);
+
+  Serial.println(farenheit);
 
   delay(1000);
 }
