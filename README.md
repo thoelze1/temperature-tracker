@@ -1,3 +1,6 @@
+# To Do
+Replace running average of sensor readings with Kalman Filter.
+
 # Track Temperature
 Using arduino and raspberry pi.
 
