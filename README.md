@@ -1,5 +1,5 @@
 # Kalman Filter
-I have modeled filter with prediction based on velocity and acceleration. Next I would like to set up an extended kalman filter that assumes (sinusoidal oscillation of the signal)[http://iaac.technion.ac.il/workshops/2010/KFhandouts/LectKF10.pdf].
+I have modeled filter with prediction based on velocity and acceleration. Next I would like to set up an extended kalman filter that assumes [sinusoidal oscillation of the signal](http://iaac.technion.ac.il/workshops/2010/KFhandouts/LectKF10.pdf).
 
 # Track Temperature
 Using arduino and raspberry pi.
