@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 
 class KalmanFilter:
 
-  n = 5000
+  n = 100
   readings = []
 
   trueStart = 70.0
-  trueVelocity = 0.001
-  trueAcceleration = 0.00001
-  trueOscillationA = 10
-  trueOscillationR = 0.001
+  trueVelocity = 0
+  trueAcceleration = 0
+  trueOscillationA = 0
+  trueOscillationR = 0
 
   # Get sensor outputs
   def sensorOutputs(self):
@@ -116,11 +116,12 @@ class KalmanFilter:
   # Plot results
   def plotResults(self):
     self.readings = self.sensorOutputs()
+    plt.axis([0, 100, 60, 80])
     plt.plot(range(self.n),self.readings,color='black')
-    # plt.plot(range(self.n),self.movingAverage(),color='orange')
     plt.plot(range(self.n),self.positionFilter(),color='red')
-    plt.plot(range(self.n),self.velocityFilter(),color='blue')
-    plt.plot(range(self.n),self.accelerationFilter(),color='yellow')
+    # plt.plot(range(self.n),self.movingAverage(),color='orange')
+    # plt.plot(range(self.n),self.velocityFilter(),color='blue')
+    # plt.plot(range(self.n),self.accelerationFilter(),color='yellow')
     plt.show()
 
 if __name__ == "__main__":

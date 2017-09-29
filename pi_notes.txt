@@ -1,0 +1,1 @@
+You can't change another user's password from pi properly; you have to do it from a proper sudoer
