@@ -2,10 +2,11 @@
 I have modeled filter with prediction based on velocity and acceleration. Next I would like to set up an extended kalman filter that assumes [sinusoidal oscillation of the signal](http://iaac.technion.ac.il/workshops/2010/KFhandouts/LectKF10.pdf).
 
 # Track Temperature
-Using arduino and raspberry pi.
+Currently using arduino and raspberry pi. Really no need for arduino once I get some female wires.
 
-# Old tutorial
-http://renatoppl.com/blog/2014/03/03/thermometer-using-arduino-and-raspberrypi/
+# Tutorial
+- More relevant: https://mtlynch.io/greenpithumb/
+- Old: http://renatoppl.com/blog/2014/03/03/thermometer-using-arduino-and-raspberrypi/
 
 # SSH into Pi with Ubuntu and ethernet cable
 http://raspberrypi.stackexchange.com/questions/3867/ssh-to-rpi-without-a-network-connection
